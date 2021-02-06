@@ -1,0 +1,65 @@
+.card .card-body {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.form-control {
+  border: 1px solid #e5e6e9;
+  border-radius: 0;
+  padding-left: 18px;
+  font-size: 14px;
+  background: transparent;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+.btn-custom {
+  background: #00c9e8;
+  border: 0px;
+  width: 20%;
+  height: 45px;
+}
+.btn-custom:hover {
+  background: #208d9e;
+  border: 0px;
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 4px 0px;
+    display: inline-block;
+    color: #101010;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+label.radio input:checked+span {
+    border-color: red;
+    background-color: red;
+    color: #fff
+}
+
+.ans {
+    margin-left: 36px !important
+}
+
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+}
